@@ -1,0 +1,38 @@
+{
+  "name": "style-inliner",
+  "version": "1.0.0",
+  "description": "Transforms CSS to inline styles on DOM nodes",
+  "main": "style-inliner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/braznaavtrav/style-inliner"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "styles",
+    "style"
+  ],
+  "author": "travis.r.mckinney@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/braznaavtrav/style-inliner/issues"
+  },
+  "homepage": "https://github.com/braznaavtrav/style-inliner",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-karma": "^0.9.0",
+    "karma": "^0.12.24",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-jasmine": "^0.2.3",
+    "karma-spec-reporter": "0.0.13"
+  },
+  "dependencies": {
+    "sizzle": "^2.0.0"
+  }
+}
